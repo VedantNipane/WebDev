@@ -1,0 +1,45 @@
+/* Define properties */
+.text-color {
+    color: blue;
+}
+
+.background-color {
+    background-color: #f0f0f0;
+}
+
+.border-color {
+    border: 2px solid black;
+}
+
+.background-image {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.fonts {
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.text-indentation {
+    text-indent: 20px;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.word-spacing {
+    word-spacing: 5px;
+}

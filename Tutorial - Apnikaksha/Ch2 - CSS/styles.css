@@ -1,0 +1,31 @@
+/* Define properties and values */
+h1, h2 {
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
+
+.myClass {
+    color: red;
+}
+
+#myId {
+    background-color: yellow;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Define combinators */
+div p {
+    color: green;
+}
+
+/* Define universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
