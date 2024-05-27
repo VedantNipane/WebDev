@@ -1,0 +1,35 @@
+/* Cascading: Order of Styles */
+
+/* Style from an external stylesheet */
+body {
+    font-family: Arial, sans-serif;
+    color: black; /* This will be overridden by inline style */
+}
+
+/* Inheritance: Styles passed down from parent elements */
+.container {
+    color: green; /* Paragraphs inside .container will inherit this color */
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Specificity: More specific rules override less specific ones */
+.text {
+    color: blue; /* Less specific: class selector */
+}
+
+.special {
+    color: red; /* More specific: class selector with higher specificity */
+}
+
+/* IDs have higher specificity than classes */
+#main-heading {
+    color: orange; /* Overrides class selectors */
+}
+
+/* Inline styles have the highest specificity */
+
+/* Nested elements inherit styles unless overridden */
+.nested {
+    color: brown; /* This will apply to the nested paragraph */
+}
