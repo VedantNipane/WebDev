@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file here -->
+    <link rel="stylesheet" href="payment_styles.css"> <!-- Include your CSS file here -->
 </head>
 
 <body>
     <form action = "">
         <h1>Payment Form</h1>
-        <p>Required Fields are followed by *</p>
+        <p><em>Required Fields are followed by *</em></p>
+        <hr>
         <h2>Contact Information</h2>
         <p>Name: *<input type ="text" name = "name" required> </p>
         <fieldset>
             <legend>Gender *</legend>
             <p>
-                Male <input type ="radio" name = "gender" id = "male" required> 
-                Female <input type ="radio" name = "gender" id = "female" required> 
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" required>
             </p>  
         </fieldset>  
         
