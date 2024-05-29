@@ -1,0 +1,70 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.header-content {
+    margin-left: 20px;
+}
+
+/* Profile photo styling */
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.sidebar h2, .sidebar p, .sidebar ul {
+    margin: 0 0 20px 0;
+}
+
+/* Main content styling */
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}

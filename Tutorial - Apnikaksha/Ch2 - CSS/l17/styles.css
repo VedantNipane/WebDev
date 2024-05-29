@@ -1,0 +1,195 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix the header */
+    width: 100%; /* Make it full width */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+header .logo img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Add padding-top to the body to prevent content from being hidden behind the fixed header */
+body {
+    padding-top: 80px; /* Adjust based on the header height */
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    background-color: #ffeb3b;
+    padding: 40px 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 20px 0 10px;
+    color: #ff5722;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Products section styles */
+.products {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ff5722;
+}
+
+.product p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* About section styles */
+.about {
+    padding: 40px 20px;
+    background-color: #ffcc00;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffcc00;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+    font-size: 1em;
+}
