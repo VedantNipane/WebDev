@@ -53,7 +53,8 @@ video {
 }
 
 iframe {
-    height: 75vh;
+    height: 45vh;
+    padding: 0px 10px;
 }
 
 img {

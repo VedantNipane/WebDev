@@ -1,0 +1,57 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Grid container styling */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Grid items (boxes) styling */
+.box {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    border-radius: 8px;
+}
+
+/* Specific styling for each box */
+.Nav {
+    grid-column: 1 /span 2;
+    grid-row: 1 / span 6; /* Spans six rows */
+}
+
+.Header {
+    grid-column: 3 /span 4;
+    grid-row: 1;
+    background-color: chocolate;
+}
+
+.Article {
+    grid-column: 3 /span 3;
+    grid-row: 2 / span 4; /* Starts at row 4 and spans 3 rows */
+    background-color: cornflowerblue;
+}
+
+.Ads {
+    grid-column: 6;
+    grid-row: 2 / span 4;
+    background-color: darkgoldenrod;
+}
+
+.Footer {
+    grid-column: 3 /span 4;
+    grid-row: 6 ;
+    background-color: deeppink;
+}
